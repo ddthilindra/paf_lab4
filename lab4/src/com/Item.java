@@ -72,9 +72,9 @@ public class Item {
 				output += "<td>" + itemPrice + "</td>";
 				output += "<td>" + itemDesc + "</td>";
 				// buttons
-				output += "<td><input name='btnUpdate' type='button' value='Update'></td>"
+				output += "<td><input name='btnUpdate' type='button' value='Update' class=\"btn btn-success\"></td>"
 						+ "<td><form method='post' action='Item.jsp'>"
-						+ "<input name='btnRemove' type='submit' value='Remove'>"
+						+ "<input name='btnRemove' type='submit' value='Remove' class='btn btn-danger'>"
 						+ "<input name='itemID' type='hidden' value='" + itemID + "'>" + "</form></td></tr>";
 
 			}
